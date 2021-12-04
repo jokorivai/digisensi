@@ -13,7 +13,17 @@ Software ini dapat digunakan untuk absensi di perkantoran atau sekolah-sekolah.
 
 #### Mesin Server
 
+Untuk tahap ujicoba, komputer dengan Intel Core I3, 4GB RAM dan HDD 7.2Krpm seharusnya sudah mencukupi.
+
+Untuk tahap produksi, perlu disiapkan server yang sesungguhnya, yang sebaiknya setara Intel Xeon 4210 (atau di atasnya), RAM 8GB (atau di atasnya) dan Storage SSD yang mencukupi. Tambahan GPU akan sangat membantu meningkatkan performa. VPS dengan spesifikasi memadai pun dapat digunakan sebagai mesin server.
+
+
+
 #### Browser
+
+#### Backend Software
+
+
 
 ### Permissions
 
@@ -47,3 +57,6 @@ Lebih lanjut, pada backend server perlu dipasangi sertifikat SSL, sehingga akses
 ### Database
 
 Database yang digunakan adalah PostgreSQL server 10.x, yang dipilih karena fleksibilitas Server Side Scripting (Trigger, Stored Function dsb.) selain dari kecepatan akses data.
+
+### Keamanan Proses Absensi
+
