@@ -21,7 +21,7 @@ Untuk tahap produksi, perlu disiapkan server yang sesungguhnya, yang sebaiknya s
 
 #### Browser
 
-Browser modern yang mendukung akses kamera dapat digunakan. Sisi front-end telah diuji-coba pada browser:
+Browser modern yang mendukung akses kamera dapat digunakan. Sisi frontend telah diuji-coba pada browser:
 * Safari Desktop
 ** Mac (Catalina), 
 ** Windows 7, Windows 10, Windows 11
@@ -40,7 +40,7 @@ Browser modern yang mendukung akses kamera dapat digunakan. Sisi front-end telah
 ** iOS
 ** Android
 
-Kami belum memiliki kesempatan untuk menguji front-end di Linux.
+Kami belum memiliki kesempatan untuk menguji frontend di Linux.
 
 #### Backend Software
 
@@ -50,6 +50,9 @@ Kami belum memiliki kesempatan untuk menguji front-end di Linux.
 
 ### SSL
 
+Untuk mendukung akses kamera, frontend harus diinstall di domain publik yang diproteksi SSL. Dengan demikian, sertifikasi SSL dari Otoritas Publik harus disiapkan. Kami telah menjalankan software ini pada level produksi menggunakan sertifikat SSL gratis dari [Let's Encrypt](https://letsencrypt.org/), dan sejauh ini baik-baik saja.
+
+Anda tentu dapat menggunakan sertifikat SSL dari Otoritas lain atau yang berbayar. Tapi jika Anda membutuhkan yang gratis (misalnya untuk tahap uji-coba), [Let's Encrypt](https://letsencrypt.org/) cukup handal dan telah menerbitkan sertfikat SSL untuk lebih dari 260 juta website.
 
 ## How It Works
 
