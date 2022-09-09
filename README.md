@@ -21,6 +21,27 @@ Untuk tahap produksi, perlu disiapkan server yang sesungguhnya, yang sebaiknya s
 
 #### Browser
 
+Browser modern yang mendukung akses kamera dapat digunakan. Sisi front-end telah diuji-coba pada browser:
+* Safari Desktop
+** Mac (Catalina), 
+** Windows 7, Windows 10, Windows 11
+* Safari Mobile
+** iOS
+* Firefox Desktop
+** Mac (Catalina), 
+** Windows 7, Windows 10, Windows 11
+* Firefox Mobile
+** iOS
+** Android
+* Chrome Desktop
+** Mac (Catalina), 
+** Windows 7, Windows 10, Windows 11
+* Chrome Mobile
+** iOS
+** Android
+
+Kami belum memiliki kesempatan untuk menguji front-end di Linux.
+
 #### Backend Software
 
 
